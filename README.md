@@ -60,9 +60,11 @@ fi
 ```
 
 6、生成ssh秘钥
+
 ssh-keygen -t rsa
 
 7、配置秘钥
+
 ```shell
 # gitlab
 Host git.atayun.com
@@ -77,13 +79,19 @@ IdentityFile /home/mrz/.ssh/id_rsa_gitee
 IdentitiesOnly yes
 
 ```
+
 8、安装git toolkit
-`sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/tonydeng/git-toolkit/master/installer.sh)"`
+
+- `sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/tonydeng/git-toolkit/master/installer.sh)"`
+
 9、安装docker
-`sudo bash -c "$(curl -fsSL https://get.docker.com -o get-docker.sh)"`
+
+- `sudo bash -c "$(curl -fsSL https://get.docker.com -o get-docker.sh)"`
+
 10、加载镜像到docker容器中
-`docker load -i nginx-latest.tar.gz`
-`docker load -i mysql8.tar.gz`
-`docker load -i redis.tar.gz`
-`docker load -i docker-jdk8.tag.gz`
-`docker load -i mindoc.tar.gz`
+
+- `docker load -i nginx-latest.tar.gz`
+- `docker load -i mysql8.tar.gz`
+- `docker load -i redis.tar.gz`
+- `docker load -i docker-jdk8.tag.gz`
+- `docker load -i mindoc.tar.gz`
