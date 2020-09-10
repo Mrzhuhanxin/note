@@ -1,4 +1,4 @@
-#注意：安装zsh、docker、git工具需要开启翻墙
+# 注意：安装zsh、docker、git工具需要开启翻墙
 1、在用户根目录下创建app文件夹，将jdk、maven、postman、idea等压缩包放入然后逐个解压，删除压缩包
 2、在/etc/profile文件中加入
 ```bash
