@@ -2,7 +2,6 @@ MinDoc_New:
   image: registry.cn-hangzhou.aliyuncs.com/mindoc/mindoc:v2.0
   container_name: mindoc
   privileged: false
-  restart: always
   ports:
     - 8081:8181
   volumes:
@@ -19,3 +18,4 @@ MinDoc_New:
   dns:
     - 223.5.5.5
     - 223.6.6.6
+  restart: on-failure
